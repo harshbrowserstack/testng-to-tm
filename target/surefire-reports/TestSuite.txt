@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 103.467 sec <<< FAILURE! - in TestSuite
+addProductToCart(com.browserstack.BStackDemoTest)  Time elapsed: 3.965 sec  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //*[@id="1"]/div[] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="1"]/div[]' is not a valid XPath expression.
+  (Session info: chrome=110.0.5481.77)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Amit*con-C02DXD1LML7H', ip: '192.168.0.205', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad9bb6dbe4ef9d2c0e6b4e1f943d6f7e556607d5, findElement {using=xpath, value=//*[@id="1"]/div[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.30 (aedb656755c4..., userDataDir: /var/folders/3y/zz_w6_s56sl...}, goog:chromeOptions: {debuggerAddress: localhost:65143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ad9bb6dbe4ef9d2c0e6b4e1f943...}
+Session ID: ad9bb6dbe4ef9d2c0e6b4e1f943d6f7e556607d5
+	at com.browserstack.BStackDemoTest.addProductToCart(BStackDemoTest.java:64)
+
+loginToBStackDemo(com.browserstack.BStackDemoTest)  Time elapsed: 3.128 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.browserstack.BStackDemoTest.loginToBStackDemo(BStackDemoTest.java:37)
+
