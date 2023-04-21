@@ -10,7 +10,7 @@ public class BStackDemoTest extends SeleniumTest {
     public void visitBStackDemo() throws Exception {
     	
     	
-    	Reporter.log("[[PROPERTY|id=TC-1743]]\n", true);
+    	Reporter.log("[[PROPERTY|id=TC-1744]]\n", true);
         // navigate to bstackdemo
         driver.get("https://www.bstackdemo.com");
 
