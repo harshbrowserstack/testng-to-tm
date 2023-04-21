@@ -1,13 +1,16 @@
 package com.browserstack;
 
-import com.browserstack.SeleniumTest;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class BStackDemoTest extends SeleniumTest {
     @Test
     public void visitBStackDemo() throws Exception {
+    	
+    	
+    	Reporter.log("[[PROPERTY|id=TC-1743]]\n", true);
         // navigate to bstackdemo
         driver.get("https://www.bstackdemo.com");
 
@@ -29,7 +32,8 @@ public class BStackDemoTest extends SeleniumTest {
 
     @Test
     public void loginToBStackDemo() throws Exception {
-        // navigate to bstackdemo
+        
+    	// navigate to bstackdemo
         driver.get("https://www.bstackdemo.com");
 
         // Check the title
