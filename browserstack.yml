@@ -11,7 +11,7 @@ accessKey: ${BROWSERSTACK_USERNAME}
 # ======================
 # The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
-projectName: HB City Sales
+projectName: DD City Sales
 # Set `buildName` as the name of the job / testsuite being run
 buildName: Test Run
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
